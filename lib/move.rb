@@ -10,3 +10,7 @@ end
 def input_to_index user_input
   number = user_input.to_i - 1
 end
+
+def move(board_array, index, value = "X")
+  
+end
