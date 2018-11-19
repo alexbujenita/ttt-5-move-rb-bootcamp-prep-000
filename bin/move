@@ -3,6 +3,7 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
-def some thrr
-  puts "there"
-end
+puts "Welcome to Tic Tac Toe!"
+board = [" "," "," "," "," "," "," "," "," "]
+puts "Where would you like to go?"
+input=gets.strip
